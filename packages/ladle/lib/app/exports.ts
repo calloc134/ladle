@@ -105,7 +105,7 @@ export interface ArgType<K = any> {
     step?: number;
     [key: string]: any;
   };
-  options?: K[];
+  options?: K[] | unknown;
   defaultValue?: K;
   description?: string;
   name?: string;
